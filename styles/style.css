@@ -67,7 +67,7 @@ body {
     height: 646px;
 }
 
-/* match indo and fetures */
+/* match into and fetures */
 .socer-info {
     margin-bottom: 10%;
 }
@@ -147,9 +147,29 @@ body {
 .featurs-info {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 20px;
-    grid-row-gap: 10px;
+    grid-column-gap: 30px;
+
+    grid-row-gap: 20px;
+
 }
+
+.course-info {
+    margin-left: 10px;
+}
+
+.featurs {
+    border: 0.2px solid;
+    border-radius: 10px;
+}
+
+.icon-info {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+
 
 
 

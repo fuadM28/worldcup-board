@@ -68,6 +68,33 @@ body {
 }
 
 /* match indo and fetures */
+.featurs {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 0.1px solid;
+    border-radius: 10px;
+    width: 312px;
+    height: 242px;
+
+
+}
+
+.banner {
+    margin-top: 70px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    mar
+}
+
+.team-info {
+    text-align: center;
+}
+
 .socer-info {
     margin-bottom: 10%;
 }
@@ -149,6 +176,9 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 10px;
+
+
+
 }
 
 
