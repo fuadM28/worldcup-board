@@ -40,7 +40,8 @@ body {
 
 #title-weight {
     font-weight: 700;
-    font-size: 70px;
+    font-size: 50px;
+    margin-top: 70px;
 }
 
 .button {
@@ -55,7 +56,18 @@ body {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 5px;
+    margin-top: 30px;
 
+
+}
+
+
+
+
+.button:hover {
+    background-color: tomato;
+    animation: ease-in-out;
+    animation-duration: 3s;
 }
 
 
@@ -198,6 +210,12 @@ body {
     background-color: #161616;
 }
 
+.transfer-btn {
+    margin-left: 10px;
+    width: 80px;
+    height: 30px;
+}
+
 .contact-info {
     display: flex;
     font-size: 16px;
@@ -205,4 +223,50 @@ body {
     justify-content: space-around;
     margin-top: 50px;
     color: gold;
+}
+
+.social-media .fa-brands {
+    margin-top: 70px;
+
+    margin: 20px;
+
+}
+
+/* Media Quaries */
+@media only screen and (max-width: 688px) {
+    .cointainer {
+        width: 100%;
+
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .featurs-info {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .match-info {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social-media {
+        display: none;
+    }
+}
+
+/* For tablet */
+@media only screen and(min-width:688px) and (max-width:992px) {
+
+
+    .cointainer {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .featurs-info {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
